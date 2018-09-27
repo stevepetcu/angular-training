@@ -12,7 +12,6 @@
 }
 
 .heroes li {
-  cursor: pointer;
   position: relative;
   left: 0;
   background-color: #f9f9f9;
@@ -59,8 +58,32 @@
   position: relative;
   display: block;
   width: 250px;
+  cursor: default;
 }
 
 .heroes a:hover {
   color: #607D8B;
+}
+
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-family: Arial, serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: red !important;
+  color: white;
+  font-weight: bold;
 }
